@@ -1,0 +1,39 @@
+#main-menu {
+  width: 100%;
+  position: absolute;
+  margin-top: 52px;
+  overflow: hidden;
+  .wrapper {
+    width: 990px;
+    margin: 0 auto;
+    .logo {
+      float: left;
+      text-decoration: none;
+      margin-left: 30px;
+    }
+    .holder {
+      float: right;
+      font-family: 'helios';
+      font-weight: bold;
+      color: #25253f;
+      font-size: 14px;
+      margin-top: 12px;
+      margin-right: -14px;
+      a {
+        text-decoration: none;
+        text-transform: uppercase;
+        display: inline-block;
+        margin-right: 63px;
+        &:before {
+          background: url('../images/ico-arrow-right-15.png');
+          width: 15px;
+          height: 15px;
+          content: '';
+          display: block;
+          position: absolute;
+          margin-left: - 22px;
+        }
+      }
+    }
+  }
+}

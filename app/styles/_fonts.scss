@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'helios';
+    src: url('../fonts/heliosc-webfont.eot');
+    src: url('../fonts/heliosc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('heliosc-webfont.woff2') format('woff2'),
+         url('heliosc-webfont.woff') format('woff'),
+         url('heliosc-webfont.ttf') format('truetype'),
+         url('heliosc-webfont.svg#helioscregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helios';
+    src: url('../fonts/helioslightc-webfont.eot');
+    src: url('../fonts/helioslightc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helioslightc-webfont.woff2') format('woff2'),
+         url('../fonts/helioslightc-webfont.woff') format('woff'),
+         url('../fonts/helioslightc-webfont.ttf') format('truetype'),
+         url('helioslightc-webfont.svg#helioslightcregular') format('svg');
+    font-weight: lighter;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helios';
+    src: url('../fonts/heliosc-bold-webfont.eot');
+    src: url('../fonts/heliosc-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/heliosc-bold-webfont.woff2') format('woff2'),
+         url('../fonts/heliosc-bold-webfont.woff') format('woff'),
+         url('../fonts/heliosc-bold-webfont.ttf') format('truetype'),
+         url('../fonts/heliosc-bold-webfont.svg#helioscbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
