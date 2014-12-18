@@ -18,7 +18,7 @@
     }
     .info {
       position: absolute;
-      right: 0;
+      right: 4px;
       top: 172px;    
       font-size: 20px;
       font-family: "helios";
@@ -50,7 +50,7 @@
         }
       }
       .btn {
-        width: 234px;
+        width: 235px;
         height: 40px;
         border-radius: 2px;
         display: block;
@@ -65,7 +65,7 @@
         padding-top: 9px;
         box-sizing: border-box;
         margin-left: 140px;
-        margin-top: 34px;
+        margin-top: 32px;
       }
     }
   }
@@ -86,13 +86,29 @@
       text-align: center;
       display: inline-block;
       width: 330px;
-      margin: 0 -2px;
+      margin: 0 -4px;
+      &:nth-child(1) {
+        .visual {
+          margin-left: -15px;
+        }
+      }
+      &:nth-child(2) {
+        width: 328px;
+        .visual {
+          margin-left: 55px;
+        }
+      }
+      &:nth-child(3) {
+        .visual {
+          margin-left: 35px;
+        }
+      }
       &>* {
         display: inline-block;
         vertical-align: middle;
       }
       .visual {
-        
+        margin-left: 5px;
       }
       .text {
         width: 156px;
@@ -118,9 +134,9 @@
   .wrapper {
     width: 990px;
     margin: 0 auto;
-    background: url('../images/visual-packages-types-820.png') no-repeat center 127px;
+    background: url('../images/visual-packages-types-820.png') no-repeat 53px 127px;
     text-align: center;
-    padding-top: 370px;
+    padding-top: 360px;
     .title {
       font-size: 21px;
       font-family: "helios";
@@ -135,7 +151,7 @@
       line-height: 1.375;
       width: 669px;
       margin: 0 auto;
-      margin-top: 25px;
+      margin-top: 23px;
     }
   }
 }
@@ -143,7 +159,7 @@
 #footer {
   width: 990px;
   margin: 0 auto;
-  margin-top: 70px;
+  margin-top: 86px;
   margin-bottom: 36px;
   .small-text {
     font-size: 11px;
@@ -152,22 +168,31 @@
     vertical-align: super;
     text-align: left;
     p {
-      margin-bottom: 22px;
+      margin-bottom: 26px;
+    }
+    a {
+      color: rgb(37, 37, 63);
+      text-decoration: none;
+    }
+    .shiza {
+      margin-bottom: -7px;
     }
   }
   .warn {
     font-size: 38px;
-    font-family: "helios";
+    font-family: 'helios-light';
     color: rgb(57, 25, 26);
     text-transform: uppercase;
-    font-weight: lighter;
+    overflow: hidden;
+    margin-top: -3px;
     .holder {
       transform: scale(0.77, 1);
       -moz-transform: scale(0.77, 1);
       -webkit-transform: scale(0.77, 1);
       -ms-transform: scale(0.77, 1);
       transform-origin: left top;
-      width: 130%;
+      width: 133%;
+      letter-spacing: -0.004em;
     }
   }
 }
