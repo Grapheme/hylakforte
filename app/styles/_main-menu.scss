@@ -26,8 +26,16 @@
         display: inline-block;
         margin-right: 61px;
         color: #25253f;
+        &:hover {
+          text-decoration: underline;
+        }
+        &.active {
+          &:before {
+            background-position: bottom;
+          }
+        }
         &:before {
-          background: url('../images/ico-arrow-right-15.png');
+          background: url('../images/ico-arrow-right-15.png') top;
           width: 15px;
           height: 15px;
           content: '';
