@@ -99,52 +99,44 @@
 .ie6 .clearfix { zoom: 1 }
 
 .body-bottom {
-  //background: url('../images/bg-index-bottom.jpg');
-  width: 100%;
-  background-position: center -200px;
-  background-repeat: no-repeat;
-  padding: 1px 0;
-
-  .wrapper {
-    width: 940px;
-    margin: 0 auto;
-    background: url('../images/visual-packages-types-820.png') no-repeat 53px 127px;
-    text-align: center;
-    padding-top: 360px;
-  }
+  background: #f4f4f4;
+  padding: 40px 0 0;
+  border-bottom: 6px solid #dd1766;
 }
 
 #footer {
   width: 940px;
   margin: 0 auto;
-  margin-top: 35px;
-  margin-bottom: 36px;
+  margin-bottom: 45px;
   .small-text {
-    font-size: 11px;
-    font-family: "helios";
-    color: rgb(37, 37, 63);
-    vertical-align: super;
-    text-align: left;
+    font-size: 13px;
+  	line-height: 21px;
+  	font-family: 'museo_sans_cyrl300';
+  	vertical-align: super;
+  	text-align: left;
+  	color: #2b2b2b;
+  	a {
+  		color: #2b2b2b;
+  		text-decoration: none;
+  	}
     .add-info {
 		float: left;
 		width: 540px;
+		margin-bottom: 45px;
     }
     .copy {
 		float: right;
-    }
-    p {
-      margin-bottom: 26px;
-    }
-    a {
-      color: rgb(37, 37, 63);
-      text-decoration: none;
+		text-align: right;
     }
   }
   .warn {
-    font-size: 29px;
+    font-size: 28px;
+  	line-height: 35px;
   	font-family: 'museo_sans_cyrl300';
   	color: #111;
   	text-transform: uppercase;
-  	overflow: hidden;
   }
+}
+.footer-bottom {
+	border-bottom: 6px solid #2b2b2b;
 }
