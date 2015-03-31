@@ -24,13 +24,37 @@
     .slide {
       display: none;
       margin-left: 480px;
-      margin-top: 68px;
+      top: 68px;
+      position: relative;
       width: 460px;
+      color: white;
+      font-family: 'museo_sans_cyrl300';
+      strong {
+        font-family: 'museo_sans_cyrl700';
+        font-weight: normal;
+      }
+      .title {
+        font-size: 38px;
+      }
+      ul {
+        font-size: 20px;
+        list-style: none;
+        padding-left: 0;
+        li {
+          margin-bottom: 10px;
+        }
+      }
       &.active {
         display: block;
       }
     }
   }
+}
+
+.visual-product {
+  position: absolute;
+  margin-left: 99px;
+  margin-top: -332px;
 }
 
 .clearfix:before, .clearfix:after { content: ""; display: block; }
