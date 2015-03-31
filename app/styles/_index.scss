@@ -1,0 +1,55 @@
+
+.clearfix:before, .clearfix:after { content: ""; display: block; }
+.clearfix:after { clear: both; }
+.ie6 .clearfix { zoom: 1 }
+
+.body-bottom {
+  //background: url('../images/bg-index-bottom.jpg');
+  width: 100%;
+  background-position: center -200px;
+  background-repeat: no-repeat;
+  padding: 1px 0;
+
+  .wrapper {
+    width: 940px;
+    margin: 0 auto;
+    background: url('../images/visual-packages-types-820.png') no-repeat 53px 127px;
+    text-align: center;
+    padding-top: 360px;
+  }
+}
+
+#footer {
+  width: 940px;
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-bottom: 36px;
+  .small-text {
+    font-size: 11px;
+    font-family: "helios";
+    color: rgb(37, 37, 63);
+    vertical-align: super;
+    text-align: left;
+    .add-info {
+		float: left;
+		width: 540px;
+    }
+    .copy {
+		float: right;
+    }
+    p {
+      margin-bottom: 26px;
+    }
+    a {
+      color: rgb(37, 37, 63);
+      text-decoration: none;
+    }
+  }
+  .warn {
+    font-size: 29px;
+  	font-family: 'helios-light';
+  	color: #111;
+  	text-transform: uppercase;
+  	overflow: hidden;
+  }
+}
