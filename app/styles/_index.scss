@@ -57,6 +57,43 @@
   margin-top: -332px;
 }
 
+.promo {
+  width: 640px;
+  float: left;
+  position: relative;
+  z-index: 100;
+  margin-top: 120px;
+  .unit {
+    float: left;
+    width: 300px;
+    background: white;
+    border: 1px solid #aa1841;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    .ico {
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 22px;
+    }
+    p {
+      vertical-align: middle;
+      display: inline-block;
+      font-family: 'museo_sans_cyrl300';
+      font-size: 16px;
+      color: #0a0a0a;
+    }
+  }
+}
+.video-link {
+  float: left;
+  margin-top: 120px;
+}
+
 .clearfix:before, .clearfix:after { content: ""; display: block; }
 .clearfix:after { clear: both; }
 .ie6 .clearfix { zoom: 1 }
