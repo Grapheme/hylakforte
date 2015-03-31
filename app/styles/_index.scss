@@ -51,47 +51,58 @@
   }
 }
 
-.visual-product {
-  position: absolute;
-  margin-left: 99px;
-  margin-top: -332px;
-}
-
-.promo {
-  width: 640px;
-  float: left;
-  position: relative;
-  z-index: 100;
-  margin-top: 120px;
-  .unit {
+.content {
+  .visual-product {
+    position: absolute;
+    margin-left: 99px;
+    margin-top: -332px;
+  }
+  
+  .promo {
+    width: 640px;
     float: left;
-    width: 300px;
-    background: white;
-    border: 1px solid #aa1841;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    box-sizing: border-box;
-    padding-left: 25px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 5px;
-    .ico {
-      display: inline-block;
-      vertical-align: middle;
-      margin-right: 22px;
-    }
-    p {
-      vertical-align: middle;
-      display: inline-block;
-      font-family: 'museo_sans_cyrl300';
-      font-size: 16px;
-      color: #0a0a0a;
+    position: relative;
+    z-index: 100;
+    margin-top: 120px;
+    .unit {
+      float: left;
+      width: 300px;
+      background: white;
+      border: 1px solid #aa1841;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      padding-left: 25px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      border-radius: 5px;
+      .ico {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 22px;
+      }
+      p {
+        vertical-align: middle;
+        display: inline-block;
+        font-family: 'museo_sans_cyrl300';
+        font-size: 16px;
+        color: #0a0a0a;
+      }
     }
   }
-}
-.video-link {
-  float: left;
-  margin-top: 120px;
+  .video-link {
+    float: left;
+    margin-top: 120px;
+  }
+
+  .notes {
+    margin-top: 25px;
+    margin-bottom: 41px;
+    padding-top: 1px;
+    color: #888;
+    font-family: 'museo_sans_cyrl100';
+    font-size: 13px;
+  }
 }
 
 .clearfix:before, .clearfix:after { content: ""; display: block; }
