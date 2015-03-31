@@ -1,48 +1,19 @@
 #main-menu {
-  width: 100%;
-  position: absolute;
-  margin-top: 52px;
-  overflow: hidden;
-  .wrapper {
-    width: 990px;
+  background: #f4f4f4;
+  height: 120px;
+  .holder {
+    width: 940px;
     margin: 0 auto;
     .logo {
       float: left;
-      text-decoration: none;
-      margin-left: 30px;
     }
-    .holder {
+    .menu {
+      list-style: none;
+      padding: 0;
+      margin: 0;
       float: right;
-      font-family: 'helios';
-      font-weight: bold;
-      color: #25253f;
-      font-size: 14px;
-      margin-top: 12px;
-      margin-right: -22px;
-      width: 691px;
-      a {
-        text-decoration: none;
-        text-transform: uppercase;
-        display: inline-block;
-        margin-right: 61px;
-        color: #25253f;
-        &:hover {
-          text-decoration: underline;
-        }
-        &.active {
-          &:before {
-            background-position: bottom;
-          }
-        }
-        &:before {
-          background: url('../images/ico-arrow-right-15.png') top;
-          width: 15px;
-          height: 15px;
-          content: '';
-          display: block;
-          position: absolute;
-          margin-left: - 22px;
-        }
+      li {
+        float: left;
       }
     }
   }
