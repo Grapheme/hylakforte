@@ -11,6 +11,10 @@
     position: absolute;
     top: 50%;
     margin-top: -25px;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.5;
+    }
     &.left {
       left: 30px;
     }

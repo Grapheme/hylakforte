@@ -12,3 +12,16 @@ html, body {
   width: 940px;
   margin: 0 auto;
 }
+
+.fancybox-skin {
+  background: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.fancybox-close {
+  &:hover {
+    opacity: 0.5;
+  }
+}
