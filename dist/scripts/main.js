@@ -1,1 +1,1 @@
-console.log("'Allo 'Allo!");
+console.log("'Allo 'Allo!"),$(function(){var e=$(".main-slider .slide"),a=e.size()-1,i=$(".arrow.right"),l=$(".arrow.left");i.click(function(i){i.preventDefault();var l=e.index(e.filter(".active"));e.removeClass("active"),a>l?e.eq(l+1).addClass("active"):e.eq(0).addClass("active")}),l.click(function(i){i.preventDefault();var l=e.index(e.filter(".active"));e.removeClass("active"),l>0?e.eq(l-1).addClass("active"):e.eq(a).addClass("active")})});

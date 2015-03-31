@@ -22,19 +22,34 @@
     width: 940px;
     margin: 0 auto;
     .slide {
-      display: none;
-      margin-left: 480px;
-      top: 68px;
-      position: relative;
+      //display: none;
+      margin-left: 100px;
+      top: 100px;
+      position: absolute;
+      opacity: 0;
       width: 460px;
       color: white;
+      -moz-transform: rotate(-30deg);
+      -webkit-transform: rotate(-30deg);
+      -o-transform: rotate(-30deg);
+      -ms-transform: rotate(-30deg);
+      transform: rotate(-30deg);
       font-family: 'museo_sans_cyrl300';
+      -webkit-transition: all 300ms ease-in-out;
+      -moz-transition: all 300ms ease-in-out;
+      -ms-transition: all 300ms ease-in-out;
+      -o-transition: all 300ms ease-in-out;
+      transition: all 300ms ease-in-out;
       strong {
         font-family: 'museo_sans_cyrl700';
         font-weight: normal;
       }
       .title {
-        font-size: 38px;
+        font-size: 30px;
+        line-height: 120%;
+      }
+      .hidden {
+        opacity: 0;
       }
       ul {
         font-size: 20px;
@@ -45,7 +60,15 @@
         }
       }
       &.active {
-        display: block;
+        top: 68px;
+        opacity: 1;
+        margin-left: 480px;
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+        //display: block;
       }
     }
   }
