@@ -59,31 +59,26 @@
   margin-top: 35px;
   margin-bottom: 36px;
   .small-text {
-    font-size: 11px;
-    font-family: "helios";
-    color: rgb(37, 37, 63);
-    vertical-align: super;
-    text-align: left;
+    font-size: 13px;
+  	line-height: 21px;
+  	font-family: 'museo_sans_cyrl300';
+  	vertical-align: super;
+  	text-align: left;
+  	color: #2b2b2b;
     .add-info {
 		float: left;
 		width: 540px;
     }
     .copy {
 		float: right;
-    }
-    p {
-      margin-bottom: 26px;
-    }
-    a {
-      color: rgb(37, 37, 63);
-      text-decoration: none;
+		text-align: right;
     }
   }
   .warn {
-    font-size: 29px;
+    font-size: 28px;
+  	line-height: 35px;
   	font-family: 'museo_sans_cyrl300';
   	color: #111;
   	text-transform: uppercase;
-  	overflow: hidden;
   }
 }
