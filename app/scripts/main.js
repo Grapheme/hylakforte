@@ -6,6 +6,7 @@ $(function() {
   var slides_count = $slides.size()-1;
   var $next = $('.arrow.right');
   var $prev = $('.arrow.left');
+  var timer;
   
   function showSlideAndVideo(next) {
     $slides.removeClass('active');
@@ -14,6 +15,8 @@ $(function() {
     var video_src = $slides.eq(next).attr('data-video');
     console.log(video_src);
     $('.video-link iframe.video').attr('src', video_src);
+    clearInterval(timer);
+    startTimer();
   }
   
   $next.click(function(e){
@@ -44,9 +47,13 @@ $(function() {
     showSlideAndVideo(next);
   });
   
-  setInterval(function(){
-    $next.click();
-  }, 7000);
+  function startTimer() {
+    timer = setInterval(function(){
+      $next.click();
+    }, 7000);
+  }
+  
+  startTimer();
   
   /*$(".video-link").fancybox({
     maxWidth	: 800,
