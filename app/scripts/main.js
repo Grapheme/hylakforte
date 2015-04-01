@@ -37,7 +37,7 @@ $(function() {
     $next.click();
   }, 5000)
   
-  $(".video-link").fancybox({
+  /*$(".video-link").fancybox({
     maxWidth	: 800,
     maxHeight	: 600,
     fitToView	: false,
@@ -47,6 +47,12 @@ $(function() {
     closeClick	: false,
     openEffect	: 'none',
     closeEffect	: 'none'
+  });*/
+  
+  $('.video-link').click(function(e){
+    e.preventDefault();
+    var $box = $(this).find('.video');
+    $box.attr('src', $box.attr('data-src')).fadeIn();
   });
   
 });
