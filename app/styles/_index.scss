@@ -160,7 +160,7 @@
 }
 
 #footer {
-  width: 940px;
+  width: 940px+120;
   margin: 0 auto;
   margin-bottom: 45px;
   .small-text {
@@ -185,7 +185,7 @@
     }
   }
   .warn {
-    font-size: 28px;
+    font-size: 31px;
   	line-height: 35px;
   	font-family: 'museo_sans_cyrl300';
   	color: #111;
