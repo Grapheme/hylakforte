@@ -132,8 +132,11 @@
       display: none;
       width: 300px;
       height: 240px;
-      //display: block;
+      display: none;
       border: none;
+      &.active {
+        display: block;
+      }
     }
   }
 

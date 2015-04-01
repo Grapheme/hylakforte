@@ -40,7 +40,7 @@ block content
   .content
     img.visual-product(src="/images/visual-hilak-100ml.png")
     .promo
-      .unit
+      .unit(data-video="https://player.vimeo.com/video/123840363")
         img.ico(src="/images/ico-baby-cup.png")
         p Легко давать ребенку<br> добавляя в воду или сок<sup>2</sup>
       .unit
@@ -54,8 +54,10 @@ block content
         p Производится<br> в Германии
       .clrfx
     a(class="video-link" href="")
-      img(src="/images/thumb-video.png")
-      iframe.video(data-src="https://www.youtube.com/embed/nXOfy2HrCwo?autoplay=1")
+      //img(src="/images/thumb-video.png")
+      iframe.video.active(src="https://player.vimeo.com/video/123840363?autoplay=1&color=ffffff&title=0&byline=0&portrait=0")
+      iframe.video(src="https://player.vimeo.com/video/123840364?autoplay=1&color=ffffff&title=0&byline=0&portrait=0")
+      iframe.video(src="https://player.vimeo.com/video/123840365?autoplay=1&color=ffffff&title=0&byline=0&portrait=0")
     .notes.clrfx
       p <sup>1</sup> Щербаков П.Л., РМЖ, Детская гастроэнтология и нутрилогия, 2003, Том 11 - №3, 2003 г., с. 103-112.
       p <sup>2</sup> Инструкция по медицинскому использованию препарата Хилак форте
